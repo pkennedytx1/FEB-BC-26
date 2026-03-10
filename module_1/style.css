@@ -1,0 +1,30 @@
+.input-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: red;
+    input {
+        color: purple;
+    }
+}
+
+#warning {
+    background-color: orange;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+}
+
+#box-model {
+    height: 500px;
+    width: 500px;
+    background-color: orange;
+    padding: 30px;
+    border: blueviolet solid 17px;
+    margin: 30px;
+    border-radius: 100%;
+}
